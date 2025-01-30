@@ -1,4 +1,7 @@
 package exception;
 
-public class FullColumnException {
+public class FullColumnException extends Exception{
+    public FullColumnException(){
+
+    }
 }
